@@ -3,6 +3,7 @@ TikTok版本15.7.43
 1、启动抓包：mitmdump -s D:\PycharmProjects\TikTok\aweme\crawler.py
 2、启动appium服务
 3、执行模拟点击：python D:\PycharmProjects\TikTok\aweme\auto.py
+4、下载并替换视频地址，音乐，头像等链接：python D:\PycharmProjects\TikTok\aweme\download.py
 注：连接模拟器：adb connect 127.0.0.1:62001
     获取'deviceName'，使用命令：adb devices
    获取到'appPackage'和'appActivity'，adb连接上设备后打开应用，使用命令：adb shell dumpsys activity top|findstr ACTIVITY
